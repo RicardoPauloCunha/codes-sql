@@ -1,0 +1,7 @@
+USE HCursos;
+GO
+
+ALTER TABLE Alunos
+DROP COLUMN Ativo;
+
+DROP TABLE Usuarios;
